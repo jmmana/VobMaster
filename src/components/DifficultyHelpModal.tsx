@@ -154,6 +154,19 @@ export const DifficultyHelpModal: React.FC<DifficultyHelpModalProps> = ({
                 Entra a la pestaña <strong>Deletreo</strong>. En este modo no hay opciones múltiples: debes construir o escribir letra por letra la palabra correcta en inglés.
               </p>
             </div>
+
+            {/* Strategy 5: Reto Brutal */}
+            <div className="bg-gradient-to-r from-rose-950/40 to-slate-800/60 border border-rose-500/30 rounded-2xl p-4 flex flex-col gap-1.5">
+              <div className="flex items-center gap-2">
+                <span className="w-6 h-6 rounded-lg bg-rose-500/20 text-rose-300 border border-rose-500/30 flex items-center justify-center text-xs font-bold">5</span>
+                <span className="font-bold text-sm text-rose-300 flex items-center gap-1">
+                  <span>💀 Reto Brutal (¡Nuevo!)</span>
+                </span>
+              </div>
+              <p className="text-xs text-slate-300">
+                El desafío definitivo de trampas: homófonos que suenan igual (<em>desert</em> vs <em>dessert</em>, <em>bear</em> vs <em>beard</em> vs <em>beer</em>), falsos amigos (<em>library</em> ≠ librería, <em>actually</em> ≠ actualmente) y homógrafos (<em>tear</em>, <em>lead</em>).
+              </p>
+            </div>
           </div>
         </div>
 

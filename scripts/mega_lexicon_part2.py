@@ -1,0 +1,91 @@
+# Mega Lexicon Part 2: High-Quality Graded Vocabulary Entries
+# Across Categories: clothes, body, emotions, tech, sports, education, business, verbs_action, verbs_mind, adjectives_sensory, adjectives_quality, city, time, arts, society, science
+
+PART2_ITEMS = [
+    # Clothes, Fabrics & Footwear
+    ("cardigan", "cárdigan de punto con botones", "A2", "/ˈkɑːr.dɪ.ɡən/", "Button up a soft wool cardigan on chilly autumn evenings.", "Abróchate un cárdigan de lana en tardes frescas de otoño.", "🧶", "clothes"),
+    ("pullover", "suéter cerrado / jersey", "A2", "/ˈpʊlˌoʊ.vɚ/", "Pull on a cozy navy pullover over your collared shirt.", "Ponte un suéter azul marino sobre tu camisa con cuello.", "👕", "clothes"),
+    ("turtleneck", "suéter de cuello de tortuga", "B1", "/ˈtɝː.t̬əl.nek/", "A black cashmere turtleneck is both warm and stylish.", "Un suéter negro de cuello de tortuga es abrigador y elegante.", "👕", "clothes"),
+    ("blazer", "saco sport / blazer casual", "A2", "/ˈbleɪ.zɚ/", "Wear a navy blue blazer with chinos for smart casual looks.", "Usa un blazer azul marino con pantalones chinos para lucir formal casual.", "🧥", "clothes"),
+    ("trenchcoat", "gabardina impermeable clásica", "B1", "/ˈtrentʃˌkoʊt/", "A beige double-breasted trenchcoat protects against driving rain.", "Una gabardina beige cruzada protege de la lluvia torrencial.", "🧥", "clothes"),
+    ("windbreaker", "rompevientos ligero", "A2", "/ˈwɪndˌbreɪ.kɚ/", "Zip up your lightweight windbreaker for seaside jogging.", "Sube el cierre de tu rompevientos ligero para correr junto al mar.", "🏃", "clothes"),
+    ("parka", "parka con capucha de plumas", "B1", "/ˈpɑːr.kə/", "A down-filled winter parka insulates in subzero blizzard winds.", "Una parka invernal de plumas aísla en vientos helados bajo cero.", "🧥", "clothes"),
+    ("overalls", "overol de mezclilla de trabajo", "A2", "/ˈoʊ.vɚ.ɑːlz/", "The woodworker wears sturdy denim overalls with tool pockets.", "El carpintero viste overoles de mezclilla con bolsas para herramientas.", "👖", "clothes"),
+    ("sweatpants", "pantalones deportivos / pans", "A1", "/ˈswet.pænts/", "Change into grey fleece sweatpants after long working hours.", "Ponte pantalones deportivos de felpa después de largas horas de trabajo.", "👖", "clothes"),
+    ("leggings", "mallas deportivas / licras", "A1", "/ˈleɡ.ɪŋz/", "Stretchy black leggings are ideal for yoga and morning stretches.", "Mallas elásticas negras son ideales para yoga y estiramientos.", "🧘", "clothes"),
+    ("corduroy", "pana acanalada", "B1", "/ˈkɔːr.də.rɔɪ/", "Brown corduroy trousers keep legs warm in windy weather.", "Pantalones café de pana mantienen las piernas calientes con viento.", "👖", "clothes"),
+    ("denim", "mezclilla resistente", "A2", "/ˈden.ɪm/", "Blue denim jackets look great with cotton t-shirts.", "Chamarras de mezclilla azul se ven geniales con playeras de algodón.", "🧥", "clothes"),
+    ("flannel", "franela suave a cuadros", "A2", "/ˈflæn.əl/", "A red checkered flannel shirt is comfortable for autumn camping.", "Una camisa de franela a cuadros es cómoda para acampar en otoño.", "🏕️", "clothes"),
+    ("cashmere", "cachemira fina de cabra", "B1", "/ˈkæʒ.mɪr/", "Soft cashmere scarves feel featherlight around your neck.", "Bufandas de suave cachemira se sienten ligeras en el cuello.", "🧣", "clothes"),
+    ("linen", "lino natural transpirable", "B1", "/ˈlɪn.ɪn/", "Breathable white linen shirts stay crisp during tropical heat.", "Camisas blancas de lino se mantienen frescas con calor tropical.", "👔", "clothes"),
+    ("silk", "seda natural brillante", "A2", "/sɪlk/", "The bride wore an ivory dress sewn from pure natural silk.", "La novia lució un vestido marfil confeccionado en pura seda natural.", "👗", "clothes"),
+    ("velvet", "terciopelo elegante", "B1", "/ˈvel.vɪt/", "An emerald velvet blazer looks festive at holiday banquets.", "Un saco de terciopelo esmeralda luce festivo en banquetes.", "✨", "clothes"),
+    ("cufflinks", "mancuernillas / gemelos de camisa", "B1", "/ˈkʌf.lɪŋks/", "Fasten silver cufflinks to the stiff cuffs of your tuxedo.", "Abrrocha mancuernillas de plata en los puños rígidos de tu esmoquin.", "👔", "clothes"),
+    ("bowtie", "corbata de moño / pajarita", "A2", "/ˈboʊ.taɪ/", "Tie a silk bowtie smoothly before the orchestral concert.", "Anuda un moño de seda con cuidado antes del concierto orquestal.", "🤵", "clothes"),
+    ("suspenders", "tirantes para pantalón", "B1", "/səˈspen.dɚz/", "Leather button suspenders hold dress trousers perfectly high.", "Tirantes de cuero sujetan los pantalones de vestir a buena altura.", "👖", "clothes"),
+
+    # Body, Health & Wellness
+    ("forehead", "frente de la cara", "A1", "/ˈfɔːr.hed/", "Wipe cooling sweat from your forehead with a hand towel.", "Límpiate el sudor de la frente con una toalla de mano.", "👤", "body"),
+    ("eyebrow", "ceja de la cara", "A1", "/ˈaɪ.braʊ/", "Raise an inquisitive eyebrow when hearing surprising news.", "Levanta una ceja con curiosidad al escuchar noticias sorprendentes.", "🤨", "body"),
+    ("eyelash", "pestaña del párpado", "A1", "/ˈaɪ.læʃ/", "A tiny loose eyelash landed softly on her rosy cheek.", "Una pequeña pestaña suelta cayó suave sobre su mejilla sonrosada.", "👁️", "body"),
+    ("eyelid", "párpado del ojo", "A2", "/ˈaɪ.lɪd/", "Heavy eyelids fluttered closed as the sleepy toddler dozed.", "Párpados pesados se cerraron mientras el pequeño dormitaba.", "😴", "body"),
+    ("jaw", "mandíbula de la boca", "A2", "/dʒɑː/", "Chew whole grain bread thoroughly with your strong jaw.", "Mastica bien el pan integral con tu mandíbula fuerte.", "🦷", "body"),
+    ("chin", "barbilla / mentón", "A1", "/tʃɪn/", "Rest your thoughtful chin on your palm while contemplating.", "Apoya la barbilla en la palma de tu mano mientras reflexionas.", "🤔", "body"),
+    ("wristband", "muñequera deportiva", "A2", "/ˈrɪst.bænd/", "Wear an absorbent terrycloth wristband on the tennis court.", "Usa una muñequera deportiva de toalla en la cancha de tenis.", "🎾", "body"),
+    ("knuckle", "nudillo de la mano", "B1", "/ˈnʌk.əl/", "Rap gently with your knuckle on the heavy wooden door.", "Toca suave con los nudillos en la puerta pesada de madera.", "✊", "body"),
+    ("spine", "columna vertebral", "B1", "/spaɪn/", "Maintain straight spine posture when seated at computer desks.", "Mantén una postura recta de la columna vertebral frente a la computadora.", "🧘", "body"),
+    ("collarbone", "clavícula del hombro", "B1", "/ˈkɑː.lɚ.boʊn/", "The graceful ballerina wore a pendant resting on her collarbone.", "La bailarina llevaba un dije que descansaba sobre su clavícula.", "🩰", "body"),
+    ("abdomen", "abdomen / vientre", "B1", "/ˈæb.də.mən/", "Core exercises tone the abdominal muscles of the midsection.", "Ejercicios de torso tonifican los músculos del abdomen.", "🏋️", "body"),
+    ("thigh", "muslo de la pierna", "A2", "/θaɪ/", "Deep squats build muscular power in both thighs and glutes.", "Sentadillas profundas desarrollan fuerza en los muslos.", "🦵", "body"),
+    ("shin", "espinilla de la pierna", "A2", "/ʃɪn/", "Strap on plastic shin guards before playing competitive soccer.", "Colócate espinilleras de plástico antes de jugar futbol.", "⚽", "body"),
+    ("heel", "talón del pie", "A2", "/hiːl/", "Cushioned running shoes absorb impact on your heel stride.", "Tenis acolchados absorben el impacto en el talón al correr.", "👟", "body"),
+    ("instep", "empeine del pie", "B1", "/ˈɪn.step/", "Strike the soccer ball cleanly with the instep of your cleat.", "Patea el balón limpiamente con el empeine del zapato deportivo.", "⚽", "body"),
+
+    # Emotions, Mind & Temperament
+    ("optimism", "optimismo vital", "B1", "/ˈɑːp.tə.mɪ.zəm/", "She faced unexpected setbacks with cheerful infectious optimism.", "Afrontó contratiempos inesperados con optimismo alegre y contagioso.", "☀️", "emotions"),
+    ("patience", "paciencia y calma", "A2", "/ˈpeɪ.ʃəns/", "Gardening teaches quiet patience as tiny seeds grow slowly.", "La jardinería enseña paciencia tranquila mientras crecen las semillas.", "🌱", "emotions"),
+    ("courage", "coraje / valentía ante el peligro", "B1", "/ˈkɝː.ɪdʒ/", "Firefighters display boundless courage when entering burning buildings.", "Bomberos muestran un coraje infinito al entrar en edificios en llamas.", "🦁", "emotions"),
+    ("empathy", "empatía y comprensión del prójimo", "B1", "/ˈem.pə.θi/", "Active listening fosters deeper mutual empathy among friends.", "Saber escuchar fomenta una empatía más profunda entre amigos.", "🤝", "emotions"),
+    ("gratitude", "gratitud del corazón", "B1", "/ˈɡræt̬.ə.tuːd/", "Keep a daily gratitude journal to reflect on life's blessings.", "Lleva un diario de gratitud para reflexionar en las bendiciones de la vida.", "🙏", "emotions"),
+    ("humility", "humildad sincera", "B2", "/hjuːˈmɪl.ə.t̬i/", "Great champions accept accolades with genuine, modest humility.", "Grandes campeones aceptan elogios con genuina y modesta humildad.", "🕊️", "emotions"),
+    ("integrity", "integridad moral intachable", "B2", "/ɪnˈteɡ.rə.t̬i/", "A leader of integrity keeps commitments even under pressure.", "Un líder con integridad cumple sus compromisos aun bajo presión.", "🛡️", "emotions"),
+    ("curiosity", "curiosidad intelectual", "A2", "/ˌkjʊr.iˈɑː.sə.t̬i/", "Childhood curiosity is the spark behind scientific discoveries.", "La curiosidad infantil es la chispa detrás de descubrimientos científicos.", "🔍", "emotions"),
+    ("resilience", "resiliencia emocional", "B2", "/rɪˈzɪl.jəns/", "Developing emotional resilience helps people navigate career shifts.", "Desarrollar resiliencia emocional ayuda a afrontar cambios laborales.", "🌱", "emotions"),
+    ("generosity", "generosidad altruista", "B1", "/ˌdʒen.əˈrɑː.sə.t̬i/", "Neighbors pooled food supplies with extraordinary generosity.", "Los vecinos juntaron provisiones con extraordinaria generosidad.", "🎁", "emotions"),
+
+    # Tech, Hardware & Computing
+    ("touchscreen", "pantalla táctil interactiva", "A2", "/ˈtʌtʃ.skriːn/", "Tap and pinch photos directly on the high-definition touchscreen.", "Toca y amplía fotos directamente en la pantalla táctil de alta definición.", "📱", "tech"),
+    ("motherboard", "tarjeta madre / placa base", "B1", "/ˈmʌð.ɚ.bɔːrd/", "The central microprocessor mounts onto the computer motherboard.", "El microprocesador central se monta en la placa base de la computadora.", "🖥️", "tech"),
+    ("router", "enrutador wifi / módem", "A2", "/ˈraʊ.t̬ɚ/", "Restart the wireless router to reset your home internet signal.", "Reinicia el enrutador para restablecer la señal de internet de tu casa.", "📶", "tech"),
+    ("bluetooth", "conexión inalámbrica bluetooth", "A1", "/ˈbluː.tuːθ/", "Pair your wireless headphones via bluetooth in seconds.", "Empareja tus audífonos inalámbricos por bluetooth en segundos.", "🎧", "tech"),
+    ("firmware", "firmware de hardware", "B2", "/ˈfɝːm.wer/", "Update your digital camera firmware to unlock autofocus features.", "Actualiza el firmware de tu cámara para nuevas funciones de enfoque.", "💾", "tech"),
+    ("cache", "memoria caché temporal", "B1", "/kæʃ/", "Clearing your browser cache frees up valuable storage space.", "Borrar la memoria caché del navegador libera espacio de almacenamiento.", "⚡", "tech"),
+    ("pixel", "píxel de pantalla", "A2", "/ˈpɪk.səl/", "Modern displays pack millions of pixels for razor-sharp text.", "Pantallas modernas agrupan millones de píxeles para texto nítido.", "🖥️", "tech"),
+    ("bandwidth", "ancho de banda de transferencia", "B1", "/ˈbænd.wɪtθ/", "Fibre optic cables provide nearly unlimited digital bandwidth.", "Cables de fibra óptica brindan ancho de banda digital casi ilimitado.", "🌐", "tech"),
+    ("firewall", "barrera de seguridad informática", "B1", "/ˈfaɪr.wɑːl/", "Configure the corporate firewall to block suspicious incoming ports.", "Configura el cortafuegos para bloquear puertos entrantes sospechosos.", "🛡️", "tech"),
+    ("cryptocurrency", "criptomoneda digital", "B2", "/ˈkrɪp.toʊˌkɝː.ən.si/", "Bitcoin was the pioneer decentralized proof-of-work cryptocurrency.", "Bitcoin fue la criptomoneda descentralizada pionera de prueba de trabajo.", "🪙", "tech"),
+
+    # Sports, Fitness & Athletics
+    ("marathon", "maratón de 42 kilómetros", "A2", "/ˈmer.ə.θɑːn/", "Thousands of runners train year-round for the city marathon.", "Miles de corredores entrenan todo el año para el maratón de la ciudad.", "🏃", "sports"),
+    ("sprint", "carrera corta de velocidad", "A2", "/sprɪnt/", "Athletes sprint full speed toward the finish ribbon in the hundred meters.", "Los atletas corren a toda velocidad hacia la meta en los cien metros.", "⚡", "sports"),
+    ("badminton", "bádminton con volante", "A2", "/ˈbæd.mɪn.tən/", "Hit the feathered shuttlecock over the high badminton net.", "Pasa el volante de plumas sobre la red alta de bádminton.", "🏸", "sports"),
+    ("archery", "tiro con arco y flecha", "B1", "/ˈɑːr.tʃɚ.i/", "Target archery demands steady breathing and pinpoint focus.", "El tiro con arco exige respiración constante y concentración máxima.", "🏹", "sports"),
+    ("kayaking", "canotaje / kayakismo", "A2", "/ˈkaɪ.æk.ɪŋ/", "Whitewater kayaking requires helmets and quick paddle strokes.", "Hacer kayak en aguas bravas requiere casco y paladas rápidas.", "🛶", "sports"),
+    ("snorkeling", "esnórquel en arrecifes", "A2", "/ˈsnɔːr.kəl.ɪŋ/", "Go snorkeling to observe colorful tropical clownfish and coral.", "Haz esnórquel para observar peces payaso tropicales y corales.", "🤿", "sports"),
+    ("gymnastics", "gimnasia artística", "A2", "/dʒɪmˈnæs.tɪks/", "Olympic gymnastics showcases astonishing balance on parallel bars.", "La gimnasia olímpica muestra un asombroso equilibrio en barras paralelas.", "🤸", "sports"),
+    ("judo", "arte marcial judo", "A2", "/ˈdʒuː.doʊ/", "Judo practitioners utilize balance leverage to throw opponents.", "Practicantes de judo aprovechan el equilibrio para proyectar oponentes.", "🥋", "sports"),
+    ("karate", "kárate tradicional", "A2", "/kəˈrɑː.t̬i/", "Disciplined students practice white crane kata forms in karate.", "Alumnos disciplinados practican katas en kárate.", "🥋", "sports"),
+    ("triathlon", "triatlón deportivo", "B2", "/traɪˈæθ.lɑːn/", "The ironman triathlon combines swimming, cycling, and a marathon.", "El triatlón ironman combina natación, ciclismo y un maratón.", "🏊", "sports"),
+
+    # Education & Schooling
+    ("textbook", "libro de texto escolar", "A1", "/ˈtekst.bʊk/", "Open your chemistry textbook to chapter five on periodic elements.", "Abre tu libro de química en el capítulo cinco de elementos periódicos.", "📖", "education"),
+    ("notebook", "cuaderno de apuntes", "A1", "/ˈnoʊt.bʊk/", "Jot down lecture notes neatly inside your spiral notebook.", "Apunta las notas de clase con orden en tu cuaderno de espiral.", "📓", "education"),
+    ("blackboard", "pizarrón de tiza", "A1", "/ˈblæk.bɔːrd/", "The teacher wrote calculus equations in white chalk on the blackboard.", "El profesor escribió ecuaciones con tiza en el pizarrón.", "🧑‍🏫", "education"),
+    ("whiteboard", "pizarrón blanco de plumón", "A1", "/ˈwaɪt.bɔːrd/", "Brainstorm marketing ideas using colorful dry-erase markers on the whiteboard.", "Apunta ideas con marcadores borrables en el pizarrón blanco.", "🖊️", "education"),
+    ("pencilcase", "estuche de lápices / lapicera", "A1", "/ˈpen.səl.keɪs/", "Pack sharp pencils, pens, and erasers in your zip pencilcase.", "Guarda lápices afilados, plumas y gomas en tu estuche.", "✏️", "education"),
+    ("highlighter", "marcatextos fosforescente", "A2", "/ˈhaɪˌlaɪ.t̬ɚ/", "Use a neon yellow highlighter to highlight vocabulary in articles.", "Usa un marcatextos amarillo neón para resaltar vocabulario en artículos.", "🖍️", "education"),
+    ("sharpener", "sacapuntas de lápiz", "A1", "/ˈʃɑːr.pən.ɚ/", "Twist the dull pencil inside the metal sharpener for fine points.", "Gira el lápiz en el sacapuntas de metal para obtener buena punta.", "✏️", "education"),
+    ("calculator", "calculadora científica", "A2", "/ˈkæl.kjə.leɪ.t̬ɚ/", "Solve trigonometry problems quickly on the scientific calculator.", "Resuelve problemas de trigonometría rápido en la calculadora científica.", "🔢", "education"),
+    ("encyclopedia", "enciclopedia de consulta", "B1", "/ɪnˌsaɪ.kləˈpiː.di.ə/", "Consult the multi-volume encyclopedia for historical dates.", "Consulta la enciclopedia de varios tomos para fechas históricas.", "📚", "education"),
+    ("thesaurus", "diccionario de sinónimos", "B1", "/θɪˈsɔːr.əs/", "Look up expressive synonyms for common verbs in the thesaurus.", "Busca sinónimos expresivos para verbos comunes en el diccionario.", "📖", "education")
+]

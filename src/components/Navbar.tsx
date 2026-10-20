@@ -12,7 +12,7 @@ import {
   BarChart2
 } from 'lucide-react';
 
-export type ActiveTab = 'quiz_listen' | 'quiz_visual' | 'quiz_mixed' | 'flashcards' | 'spelling' | 'dictionary' | 'stats';
+export type ActiveTab = 'quiz_listen' | 'quiz_visual' | 'quiz_mixed' | 'quiz_brutal' | 'flashcards' | 'spelling' | 'dictionary' | 'stats';
 
 interface NavbarProps {
   activeTab: ActiveTab;
@@ -89,7 +89,18 @@ export const Navbar: React.FC<NavbarProps> = ({
                   : 'text-slate-400 hover:text-white hover:bg-slate-800/80'
               }`}
             >
-              <span>⚡ Reto Mixto</span>
+              <span>⚡ Mixto</span>
+            </button>
+
+            <button
+              onClick={() => onSelectTab('quiz_brutal')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-black transition-all cursor-pointer ${
+                activeTab === 'quiz_brutal'
+                  ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-white shadow-md shadow-rose-950/50'
+                  : 'text-rose-400 hover:text-rose-200 hover:bg-rose-950/40 border border-rose-500/30'
+              }`}
+            >
+              <span>💀 Reto Brutal</span>
             </button>
 
             <button
@@ -194,6 +205,16 @@ export const Navbar: React.FC<NavbarProps> = ({
             }`}
           >
             ⚡ Mixto
+          </button>
+          <button
+            onClick={() => onSelectTab('quiz_brutal')}
+            className={`px-3 py-1 rounded-lg text-xs font-black whitespace-nowrap shrink-0 ${
+              activeTab === 'quiz_brutal'
+                ? 'bg-gradient-to-r from-rose-500 to-amber-500 text-white shadow-sm'
+                : 'text-rose-400 bg-rose-950/40 border border-rose-500/30'
+            }`}
+          >
+            💀 Reto Brutal
           </button>
           <button
             onClick={() => onSelectTab('flashcards')}

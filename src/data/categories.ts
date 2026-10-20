@@ -7,7 +7,7 @@ export const categories: CategoryItem[] = [
     "emoji": "🦁",
     "icon": "PawPrint",
     "color": "from-amber-500 to-orange-600",
-    "count": 195
+    "count": 416
   },
   {
     "id": "food",
@@ -15,7 +15,7 @@ export const categories: CategoryItem[] = [
     "emoji": "🍎",
     "icon": "Utensils",
     "color": "from-amber-500 to-red-500",
-    "count": 268
+    "count": 399
   },
   {
     "id": "home",
@@ -23,7 +23,7 @@ export const categories: CategoryItem[] = [
     "emoji": "🏠",
     "icon": "Home",
     "color": "from-blue-500 to-indigo-600",
-    "count": 166
+    "count": 271
   },
   {
     "id": "nature",
@@ -31,7 +31,7 @@ export const categories: CategoryItem[] = [
     "emoji": "🌲",
     "icon": "TreePine",
     "color": "from-emerald-500 to-teal-600",
-    "count": 160
+    "count": 298
   },
   {
     "id": "travel",
@@ -39,7 +39,7 @@ export const categories: CategoryItem[] = [
     "emoji": "✈️",
     "icon": "Plane",
     "color": "from-sky-500 to-cyan-600",
-    "count": 90
+    "count": 235
   },
   {
     "id": "jobs",
@@ -47,7 +47,7 @@ export const categories: CategoryItem[] = [
     "emoji": "💼",
     "icon": "Briefcase",
     "color": "from-violet-500 to-purple-600",
-    "count": 74
+    "count": 154
   },
   {
     "id": "clothes",
@@ -55,7 +55,7 @@ export const categories: CategoryItem[] = [
     "emoji": "👕",
     "icon": "Shirt",
     "color": "from-pink-500 to-rose-600",
-    "count": 104
+    "count": 241
   },
   {
     "id": "body",
@@ -63,7 +63,7 @@ export const categories: CategoryItem[] = [
     "emoji": "🩺",
     "icon": "HeartPulse",
     "color": "from-rose-500 to-red-600",
-    "count": 127
+    "count": 290
   },
   {
     "id": "emotions",
@@ -71,7 +71,7 @@ export const categories: CategoryItem[] = [
     "emoji": "✨",
     "icon": "Smile",
     "color": "from-yellow-400 to-amber-500",
-    "count": 77
+    "count": 143
   },
   {
     "id": "tech",
@@ -79,7 +79,7 @@ export const categories: CategoryItem[] = [
     "emoji": "💻",
     "icon": "Laptop",
     "color": "from-cyan-500 to-blue-600",
-    "count": 114
+    "count": 198
   },
   {
     "id": "sports",
@@ -87,7 +87,7 @@ export const categories: CategoryItem[] = [
     "emoji": "⚽",
     "icon": "Trophy",
     "color": "from-lime-500 to-emerald-600",
-    "count": 84
+    "count": 170
   },
   {
     "id": "education",
@@ -95,7 +95,7 @@ export const categories: CategoryItem[] = [
     "emoji": "📚",
     "icon": "GraduationCap",
     "color": "from-teal-500 to-emerald-600",
-    "count": 104
+    "count": 182
   },
   {
     "id": "business",
@@ -103,7 +103,7 @@ export const categories: CategoryItem[] = [
     "emoji": "💳",
     "icon": "Coins",
     "color": "from-emerald-500 to-green-700",
-    "count": 121
+    "count": 197
   },
   {
     "id": "verbs_action",
@@ -111,7 +111,7 @@ export const categories: CategoryItem[] = [
     "emoji": "🏃",
     "icon": "Flame",
     "color": "from-amber-500 to-red-600",
-    "count": 363
+    "count": 666
   },
   {
     "id": "verbs_mind",
@@ -119,7 +119,7 @@ export const categories: CategoryItem[] = [
     "emoji": "🧠",
     "icon": "Sparkles",
     "color": "from-indigo-500 to-violet-600",
-    "count": 136
+    "count": 197
   },
   {
     "id": "adjectives_sensory",
@@ -127,7 +127,7 @@ export const categories: CategoryItem[] = [
     "emoji": "🎨",
     "icon": "Palette",
     "color": "from-fuchsia-500 to-pink-600",
-    "count": 238
+    "count": 300
   },
   {
     "id": "adjectives_quality",
@@ -135,7 +135,7 @@ export const categories: CategoryItem[] = [
     "emoji": "⭐",
     "icon": "Star",
     "color": "from-yellow-500 to-orange-500",
-    "count": 129
+    "count": 890
   },
   {
     "id": "city",
@@ -143,7 +143,7 @@ export const categories: CategoryItem[] = [
     "emoji": "🏙️",
     "icon": "Building2",
     "color": "from-slate-500 to-zinc-700",
-    "count": 93
+    "count": 177
   },
   {
     "id": "time",
@@ -151,7 +151,7 @@ export const categories: CategoryItem[] = [
     "emoji": "⏳",
     "icon": "Clock",
     "color": "from-blue-400 to-indigo-500",
-    "count": 68
+    "count": 171
   },
   {
     "id": "arts",
@@ -159,7 +159,7 @@ export const categories: CategoryItem[] = [
     "emoji": "🎭",
     "icon": "Music",
     "color": "from-purple-500 to-pink-600",
-    "count": 68
+    "count": 205
   },
   {
     "id": "society",
@@ -167,7 +167,7 @@ export const categories: CategoryItem[] = [
     "emoji": "👥",
     "icon": "Users",
     "color": "from-teal-500 to-cyan-600",
-    "count": 65
+    "count": 1323
   },
   {
     "id": "science",
@@ -175,6 +175,6 @@ export const categories: CategoryItem[] = [
     "emoji": "🚀",
     "icon": "Compass",
     "color": "from-sky-600 to-blue-800",
-    "count": 94
+    "count": 215
   }
 ];

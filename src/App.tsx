@@ -11,6 +11,7 @@ import { Navbar, ActiveTab } from './components/Navbar';
 import { QuizView } from './components/QuizView';
 import { FlashcardsView } from './components/FlashcardsView';
 import { SpellingView } from './components/SpellingView';
+import { BrutalChallengeView } from './components/BrutalChallengeView';
 import { DictionaryView } from './components/DictionaryView';
 import { StatsView } from './components/StatsView';
 import { SettingsModal } from './components/SettingsModal';
@@ -159,6 +160,7 @@ export default function App() {
                 {activeTab === 'quiz_listen' && '🎧 Escuchar y Seleccionar'}
                 {activeTab === 'quiz_visual' && '🖼️ Mirar Imagen y Seleccionar'}
                 {activeTab === 'quiz_mixed' && '⚡ Reto Mixto (Audio + Imagen)'}
+                {activeTab === 'quiz_brutal' && '💀 Reto Brutal: Homófonos, Falsos Amigos & Trampas'}
                 {activeTab === 'flashcards' && '🃏 Tarjetas de Estudio'}
                 {activeTab === 'spelling' && '✍️ Deletreo y Constructor'}
                 {activeTab === 'dictionary' && `📖 Diccionario (${words.length} Palabras)`}
@@ -314,6 +316,15 @@ export default function App() {
             onUpdateProgress={setProgress}
             mode="mixed"
             onExit={() => setActiveTab('dictionary')}
+          />
+        )}
+
+        {activeTab === 'quiz_brutal' && (
+          <BrutalChallengeView
+            settings={settings}
+            progress={progress}
+            onUpdateProgress={setProgress}
+            onExit={() => setActiveTab('quiz_mixed')}
           />
         )}
 

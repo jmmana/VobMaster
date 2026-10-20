@@ -1,0 +1,30 @@
+BATCH_CITY_SOCIETY = [
+    # City Landmarks & Street Hardware (A1, A2, B1)
+    ("crosswalk", "paso peatonal de cebra", "A1", "/ˈkrɑːs.wɑːk/", "Wait until cars stop completely before stepping into the crosswalk.", "Espera a que los autos se detengan antes de cruzar por el paso peatonal.", "🚶", "city"),
+    ("curb", "borde de la acera / cordón", "A1", "/kɝːb/", "Step up onto the concrete curb to stay clear of street puddles.", "Sube al cordón de la acera para alejarte de los charcos de la calle.", "🧱", "city"),
+    ("streetlight", "farola de alumbrado público", "A1", "/ˈstriːt.laɪt/", "Golden streetlights illuminate sidewalks automatically as darkness falls.", "Farolas doradas iluminan las aceras automáticamente al caer la noche.", "💡", "city"),
+    ("billboard", "espectacular / valla publicitaria", "A2", "/ˈbɪl.bɔːrd/", "Massive illuminated commercial billboards line busy highway interchanges.", "Enormes vallas publicitarias luminosas bordean cruces de carreteras concurridos.", "🪧", "city"),
+    ("fire hydrant", "hidrante contra incendios", "A1", "/ˈfaɪr ˌhaɪ.drənt/", "Do not park cars within five meters of the red roadside fire hydrant.", "No estaciones vehículos a menos de cinco metros del hidrante rojo.", "🚒", "city"),
+    ("manhole", "alcantarilla de inspección", "A2", "/ˈmæn.hoʊl/", "Municipal utility crews climbed down the round cast-iron manhole to inspect pipes.", "Trabajadores municipales bajaron por la alcantarilla redonda a revisar tuberías.", "🕳️", "city"),
+    ("roundabout", "glorieta / rotonda de tráfico", "A2", "/ˈraʊnd.ə.baʊt/", "Yield to oncoming vehicles already circling inside the traffic roundabout.", "Cede el paso a los vehículos que ya están circulando en la rotonda.", "🔄", "city"),
+    ("pedestrian", "transeúnte / peatón", "A2", "/pəˈdes.tri.ən/", "Pedestrians stroll leisurely through the car-free historic plaza.", "Peatones caminan con calma por la plaza histórica libre de automóviles.", "🚶‍♂️", "city"),
+    ("pavement", "pavimento de calzada o banqueta", "A2", "/ˈpeɪv.mənt/", "Rain washed autumn leaves across the dark asphalt road pavement.", "La lluvia arrastró hojas otoñales por el pavimento de asfalto oscuro.", "🛣️", "city"),
+    ("alley", "callejón estrecho de ciudad", "A2", "/ˈæl.i/", "A cobblestone alley behind the bakery smelled of warm fresh bread.", "Un callejón empedrado detrás de la panadería olía a pan fresco y caliente.", "🏘️", "city"),
+    ("overpass", "paso a desnivel elevado / puente", "B1", "/ˈoʊ.vɚ.pæs/", "Drive across the multi-lane concrete overpass to bypass downtown jams.", "Maneja por el paso a desnivel de varios carriles para evitar el tráfico.", "🌉", "city"),
+    ("underpass", "túnel vehicular subterráneo", "B1", "/ˈʌn.dɚ.pæs/", "Cyclists pedaled safely through the well-lit riverfront underpass.", "Ciclistas pedalearon seguros por el paso subterráneo iluminado junto al río.", "🚇", "city"),
+    ("scaffolding", "andamios metálicos de construcción", "B1", "/ˈskæf.əl.dɪŋ/", "Construction workers erected steel scaffolding to restore cathedral spires.", "Trabajadores levantaron andamios de acero para restaurar agujas de la catedral.", "🏗️", "city"),
+    ("crane", "grúa torre de construcción alta", "A2", "/kreɪn/", "A towering yellow crane swung precast concrete beams onto the roof.", "Una alta grúa amarilla maniobró vigas de concreto prefabricado hacia el techo.", "🏗️", "city"),
+    ("bulldozer", "aplanadora / buldócer de obras", "A2", "/ˈbʊlˌdoʊ.zɚ/", "The diesel bulldozer cleared piles of rubble from the foundation site.", "El buldócer de diésel despejó escombros del terreno de los cimientos.", "🚜", "city"),
+
+    # Society, Civics & Governance (A2, B1, B2)
+    ("referendum", "referéndum / consulta ciudadana", "B1", "/ˌref.əˈren.dəm/", "Citizens cast paper ballots in a nationwide constitutional referendum.", "Ciudadanos votaron en una consulta popular constitucional a nivel nacional.", "🗳️", "society"),
+    ("ballot", "boleta de votación electoral", "A2", "/ˈbæl.ət/", "Mark your secret ballot choices inside private voting booths.", "Marca tus opciones en la boleta secreta dentro de mamparas privadas.", "🗳️", "society"),
+    ("constitution", "constitución política fundamental", "B1", "/ˌkɑːn.stəˈtuː.ʃən/", "The supreme national constitution guarantees equality and free expression.", "La constitución suprema garantiza igualdad ante la ley y libertad de expresión.", "📜", "society"),
+    ("amendment", "enmienda o reforma legal", "B1", "/əˈmend.mənt/", "Congress ratified a historic constitutional amendment protecting voting rights.", "El congreso ratificó una enmienda histórica que protege el derecho a votar.", "⚖️", "society"),
+    ("treaty", "tratado de paz internacional", "B1", "/ˈtriː.t̬i/", "Ambassadors signed a multilateral environmental protection treaty in Geneva.", "Embajadores firmaron un tratado multilateral ambiental en Ginebra.", "🕊️", "society"),
+    ("alliance", "alianza estratégica de naciones", "B1", "/əˈlaɪ.əns/", "Democratic allies formed a technological defense alliance against cyber attacks.", "Aliados democráticos formaron una alianza de ciberdefensa contra ataques.", "🤝", "society"),
+    ("ambassador", "embajador diplomático plenipotenciario", "B1", "/æmˈbæs.ə.dɚ/", "The ambassador presented credentials to the head of state during the ceremony.", "El embajador presentó sus credenciales al jefe de estado en la ceremonia.", "👔", "society"),
+    ("diplomat", "diplomático de carrera internacional", "A2", "/ˈdɪp.lə.mæt/", "Career diplomats negotiated round-the-clock peace ceasefires.", "Diplomáticos de carrera negociaron un cese al fuego por la paz sin descanso.", "🤝", "society"),
+    ("embassy", "sede de embajada consular", "A2", "/ˈem.bə.si/", "Travelers renewed lost passports at their home nation's overseas embassy.", "Viajeros renovaron pasaportes extraviados en la embajada de su país natal.", "🏛️", "society"),
+    ("civic", "cívico y comunitario", "B1", "/ˈsɪv.ɪk/", "Active civic participation strengthens neighborhood safety and local libraries.", "La participación cívica activa fortalece la seguridad vecinal y las bibliotecas.", "🏘️", "society")
+]

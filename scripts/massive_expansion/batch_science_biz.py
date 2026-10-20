@@ -1,0 +1,37 @@
+BATCH_SCIENCE_BIZ = [
+    # Science & Elements (A2, B1, B2)
+    ("helium", "helio gaseoso ligero", "A2", "/ˈhiː.li.əm/", "Bright party balloons float high in the air when inflated with helium gas.", "Globos brillantes de fiesta flotan en el aire al inflarse con gas helio.", "🎈", "science"),
+    ("hydrogen", "hidrógeno químico elemental", "A2", "/ˈhaɪ.drə.dʒən/", "Fuel-cell passenger buses emit only pure water vapor from hydrogen combustion.", "Autobuses de pila de combustible emiten vapor de agua pura de hidrógeno.", "💧", "science"),
+    ("carbon", "carbono mineral y orgánico", "A2", "/ˈkɑːr.bən/", "All organic terrestrial life forms are built from complex carbon chains.", "Toda la vida orgánica terrestre está estructurada a partir de carbono.", "💎", "science"),
+    ("nitrogen", "nitrógeno gaseoso atmosférico", "A2", "/ˈnaɪ.trə.dʒən/", "Nitrogen gas constitutes seventy-eight percent of the air we inhale daily.", "El gas nitrógeno constituye el setenta y ocho por ciento del aire que inhalamos.", "🌬️", "science"),
+    ("oxygen", "oxígeno vital para respiración", "A1", "/ˈɑːk.sɪ.dʒən/", "Scuba diving cylinders blend compressed air and pure medical-grade oxygen.", "Tanques de buceo combinan aire comprimido y oxígeno de grado médico.", "🤿", "science"),
+    ("nebula", "nebulosa estelar brillante", "B1", "/ˈneb.jə.lə/", "The Hubble telescope captured vivid multicolored images of the Orion nebula.", "El telescopio Hubble capturó imágenes multicolores de la nebulosa de Orión.", "🌌", "science"),
+    ("meteor", "meteoro / estrella fugaz brillante", "A2", "/ˈmiː.t̬i.ɔːr/", "Look up into the dark night sky to spot shooting meteors streak by.", "Mira hacia el cielo nocturno oscuro para ver estrellas fugaces cruzar veloces.", "🌠", "science"),
+    ("comet", "cometa con cola de polvo y hielo", "A2", "/ˈkɑː.mɪt/", "Comet tails glow brightly as solar wind evaporates their frozen surface ice.", "Las colas de cometas brillan cuando el viento solar evapora su hielo superficial.", "☄️", "science"),
+    ("asteroid", "asteroide rocoso espacial", "B1", "/ˈæs.tə.rɔɪd/", "Thousands of rocky asteroids orbit peacefully between Mars and Jupiter.", "Miles de asteroides rocosos orbitan en paz entre Marte y Júpiter.", "🪐", "science"),
+    ("gravity", "gravedad de atracción planetaria", "A2", "/ˈɡræv.ə.t̬i/", "Lunar gravity is one-sixth as strong as Earth's gravitational pull.", "La gravedad lunar es una sexta parte tan fuerte como la gravedad terrestre.", "🌍", "science"),
+
+    # Tech & Computing Hardware (A2, B1, B2)
+    ("firmware", "firmware de bajo nivel en chips", "B1", "/ˈfɝːm.wer/", "Update the router firmware to patch recent network security vulnerabilities.", "Actualiza el firmware del enrutador para corregir vulnerabilidades de red.", "💾", "tech"),
+    ("bandwidth", "ancho de banda de transmisión", "B1", "/ˈbænd.wɪtθ/", "Fiber-optic fiber connections deliver high bandwidth for video streaming.", "Conexiones de fibra óptica ofrecen alto ancho de banda para ver video.", "🚀", "tech"),
+    ("firewall", "cortafuegos de seguridad de red", "B1", "/ˈfaɪr.wɑːl/", "Corporate network firewalls filter suspicious incoming internet data traffic.", "Cortafuegos corporativos filtran tráfico sospechoso entrante de internet.", "🛡️", "tech"),
+    ("peripheral", "periférico externo de computadora", "B1", "/pəˈrɪf.ɚ.əl/", "Plug external peripherals like webcams, microphones, and mouse into USB ports.", "Conecta periféricos externos como cámaras web y micrófonos a puertos USB.", "🖱️", "tech"),
+    ("touchpad", "panel táctil de laptop", "A1", "/ˈtʌtʃ.pæd/", "Use multi-finger gestures on the laptop touchpad to scroll and zoom.", "Usa gestos de varios dedos en el panel táctil de la laptop para desplazarte.", "💻", "tech"),
+    ("motherboard", "tarjeta madre principal de circuito", "B1", "/ˈmʌð.ɚ.bɔːrd/", "Seat the multicore central processor carefully into the socket on the motherboard.", "Instala el procesador multinúcleo en el zócalo de la tarjeta madre.", "🔲", "tech"),
+    ("overclock", "overclockear / acelerar reloj de CPU", "B2", "/ˌoʊ.vɚˈklɑːk/", "Gamer rigs install liquid cooling loops before overclocking processors.", "Jugadores instalan enfriamiento líquido antes de acelerar procesadores.", "⚡", "tech"),
+    ("subwoofer", "altavoz de graves profundos", "A2", "/ˈsʌbˌwʊf.ɚ/", "The home theater subwoofer shook the living room during movie explosions.", "El subwoofer del teatro en casa retumbó durante las explosiones de la película.", "🔊", "tech"),
+    ("cryptocurrency", "criptomoneda digital descentralizada", "B1", "/ˈkrɪp.toʊˌkɝː.ən.si/", "Miners validate blockchain transaction blocks to earn fresh cryptocurrency.", "Mineros validan bloques de la cadena de bloques para ganar criptomonedas.", "🪙", "tech"),
+    ("algorithm", "algoritmo de cálculo sistemático", "B1", "/ˈæl.ɡə.rɪ.ðəm/", "Sorting algorithms organize unsorted list elements in logarithmic runtimes.", "Algoritmos de ordenamiento acomodan listas en tiempos logarítmicos.", "🔢", "tech"),
+
+    # Business, Finance & Economics (A2, B1, B2)
+    ("revenue", "ingresos brutos de ventas", "B1", "/ˈrev.ə.nuː/", "The software startup generated record quarterly subscription revenue.", "La empresa emergente de software generó ingresos trimestrales récord.", "📈", "business"),
+    ("deficit", "déficit fiscal o presupuestario", "B1", "/ˈdef.ə.sɪt/", "Parliament voted on tax measures to reduce the national fiscal budget deficit.", "El parlamento votó medidas fiscales para reducir el déficit presupuestario.", "📉", "business"),
+    ("dividend", "dividendo pagado a accionistas", "B1", "/ˈdɪv.ə.dend/", "Shareholders receive quarterly dividend payouts credited directly to accounts.", "Accionistas reciben pagos trimestrales de dividendos en sus cuentas.", "💵", "business"),
+    ("mortgage", "hipoteca bancaria de vivienda", "B1", "/ˈmɔːr.ɡɪdʒ/", "Homeowners locked in a thirty-year fixed interest rate residential mortgage.", "Propietarios fijaron una hipoteca a treinta años con tasa de interés fija.", "🏡", "business"),
+    ("collateral", "garantía prendaria de préstamo", "B2", "/kəˈlæt̬.ɚ.əl/", "The commercial bank required property deeds as loan security collateral.", "El banco comercial requirió escrituras de propiedad como garantía del préstamo.", "📜", "business"),
+    ("stakeholder", "parte interesada / actor clave", "B2", "/ˈsteɪkˌhoʊl.dɚ/", "Company executives scheduled consultation workshops with key community stakeholders.", "Directivos programaron talleres de consulta con actores clave de la comunidad.", "👥", "business"),
+    ("benchmark", "punto de referencia estándar", "B2", "/ˈbentʃ.mɑːrk/", "Our customer satisfaction rating serves as an industry quality benchmark.", "Nuestra calificación de satisfacción sirve como estándar de calidad del sector.", "📊", "business"),
+    ("invoice", "factura comercial por cobrar", "A2", "/ˈɪn.vɔɪs/", "Send the client an itemized invoice detailing billable consulting hours.", "Envía al cliente una factura detallada con las horas de consultoría.", "🧾", "business"),
+    ("receipt", "recibo de pago de compra", "A1", "/rɪˈsiːt/", "Always save your store checkout paper receipts for warranty exchanges.", "Guarda siempre los recibos de compra de la tienda para hacer válida la garantía.", "🧾", "business"),
+    ("portfolio", "portafolio de inversiones", "B1", "/pɔːrtˈfoʊ.li.oʊ/", "Financial advisors recommend diversifying your stock and bond portfolio.", "Asesores financieros recomiendan diversificar tu portafolio de acciones y bonos.", "💼", "business")
+]

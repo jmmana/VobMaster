@@ -1,0 +1,72 @@
+# Mega Expansion Batch B: ~800 Graded Entries
+# Across Verbs of Action, Verbs of Mind, Sensory Adjectives, Quality Adjectives, Arts, Society, Science, Business
+
+BATCH_B = [
+    # Verbs of Motion, Gait & Locomotion (A1, A2, B1, B2, C1)
+    ("meander", "serpentear / fluir con curvas", "B2", "/miˈæn.dɚ/", "The lazy river meanders gently through green dairy valleys.", "El río tranquilo serpentea suavemente por valles lecheros.", "🏞️", "verbs_action"),
+    ("trudge", "caminar con paso pesado y fatigado", "B2", "/trʌdʒ/", "Exhausted hikers trudge through knee-deep wet winter snow.", "Senderistas exhaustos caminan con paso pesado por la nieve húmeda.", "❄️", "verbs_action"),
+    ("plod", "avanzar con paso lento y constante", "B1", "/plɑːd/", "The heavy farm horse plods patiently across plowed furrows.", "El caballo de labranza avanza con paso lento por los surcos.", "🐎", "verbs_action"),
+    ("amble", "pasear a paso tranquilo", "B2", "/ˈæm.bəl/", "Tourists amble leisurely past sunny seaside café terraces.", "Turistas pasean con calma frente a terrazas de cafés junto al mar.", "🚶", "verbs_action"),
+    ("saunter", "caminar con garbo y despreocupación", "B2", "/ˈsɑːn.t̬ɚ/", "He sauntered into the bookstore with his hands in his pockets.", "Entró a la librería con paso despreocupado y las manos en los bolsillos.", "🚶", "verbs_action"),
+    ("prance", "corvetear / brincar con orgullo", "B2", "/præns/", "Thoroughbred stallions prance gracefully around the show paddock.", "Purasangres corvetean con gracia en el corral de exhibición.", "🐎", "verbs_action"),
+    ("strut", "pavonearse / caminar con altivez", "B2", "/strʌt/", "The colorful rooster struts around the barnyard at dawn.", "El gallo colorido se pavonea por el corral al amanecer.", "🐓", "verbs_action"),
+    ("vault", "saltar con apoyo de pértiga o manos", "B2", "/vɑːlt/", "Athletes vault over the crossbar with flexible carbon poles.", "Atletas saltan sobre la barra con pértigas de carbono.", "🤸", "verbs_action"),
+    ("hurdle", "saltar vallas de atletismo", "B1", "/ˈhɝː.dəl/", "Runners hurdle barriers in the four-hundred-meter race.", "Corredores saltan vallas en la carrera de cuatrocientos metros.", "🏃", "verbs_action"),
+    ("frolic", "retozar / juguetear al aire libre", "B1", "/ˈfrɑː.lɪk/", "Young golden puppies frolic across fresh green springtime clover.", "Cachorros dorados retozan en el trébol verde de primavera.", "🐶", "verbs_action"),
+    ("skulk", "merodear a escondidas", "B2", "/skʌlk/", "Foxes skulk through shadowy garden hedges looking for food.", "Zorros merodean por setos sombríos del jardín buscando comida.", "🦊", "verbs_action"),
+    ("prowl", "acechar en busca de presas", "B1", "/praʊl/", "The leopard prowls silently along the darkened forest ridge.", "El leopardo acecha silencioso en la cordillera del bosque.", "🐆", "verbs_action"),
+    ("lurk", "permanecer al acecho oculto", "B1", "/lɝːk/", "Pike fish lurk quietly among submerged green river weeds.", "Lucios permanecen al acecho entre plantas del río.", "🐟", "verbs_action"),
+    ("slink", "escabullirse sigilosamente", "B2", "/slɪŋk/", "The guilty cat slunk under the bed after knocking over the plant.", "El gato se escabulló bajo la cama tras tirar la maceta.", "🐱", "verbs_action"),
+    ("tiptoe", "caminar de puntitas sin hacer ruido", "A1", "/ˈtɪp.toʊ/", "Tiptoe down the wooden hall so you do not wake sleeping guests.", "Camina de puntitas por el pasillo para no despertar a nadie.", "🤫", "verbs_action"),
+
+    # Nautical, Handling & Rigging Verbs
+    ("hoist", "izar con poleas o cuerdas", "B1", "/hɔɪst/", "Sailors hoist the billowing mainsail as winds pick up speed.", "Marineros izan la vela mayor cuando el viento toma fuerza.", "⛵", "verbs_action"),
+    ("unfurl", "desplegar velas o banderas", "B2", "/ʌnˈfɝːl/", "The crew unfurled the national banner during ceremonial parades.", "La tripulación desplegó la bandera nacional en el desfile.", "🚩", "verbs_action"),
+    ("furl", "enrollar y recoger velas", "B2", "/fɝːl/", "Furl the canvas headsails tightly before the gale arrives.", "Recoge las velas de lona con firmeza antes del vendaval.", "⛵", "verbs_action"),
+    ("moor", "amarrar una embarcación al muelle", "B2", "/mʊr/", "Moor the wooden sailboat securely to the harbor stone bollard.", "Amarra el velero con seguridad al poste de piedra del muelle.", "⚓", "verbs_action"),
+    ("splice", "empalmar cabos marinos trenzándolos", "B2", "/splaɪs/", "Deckhands splice heavy nylon mooring ropes by hand.", "Marineros empalman cabos gruesos de amarre a mano.", "🪢", "verbs_action"),
+    ("coil", "enrollar mangueras o cuerdas en espiral", "A2", "/kɔɪl/", "Coil the green garden hose neatly beside the outdoor spigot.", "Enrolla la manguera de jardín con orden junto a la llave de agua.", "🪴", "verbs_action"),
+    ("uncoil", "desenrollar cables o cuerdas", "B1", "/ʌnˈkɔɪl/", "Uncoil the long electrical extension cord across the lawn.", "Desenrolla la extensión eléctrica larga a lo largo del pasto.", "🔌", "verbs_action"),
+    ("cinch", "ajustar correas o cinchas con firmeza", "B1", "/sɪntʃ/", "Cinch the saddle strap securely around the horse's barrel.", "Ajusta la cincha de la silla de montar al caballo con firmeza.", "🐎", "verbs_action"),
+    ("buckle", "abrochar hebillas", "A1", "/ˈbʌk.əl/", "Buckle your airplane safety seatbelt low and snug.", "Abróchate el cinturón de seguridad del avión ajustado y bajo.", "✈️", "verbs_action"),
+    ("unbuckle", "desabrochar hebillas", "A1", "/ʌnˈbʌk.əl/", "Unbuckle the heavy hiking backpack before resting on the log.", "Desabróchate la mochila de senderismo antes de descansar.", "🎒", "verbs_action"),
+    ("clasp", "cerrar el broche de un collar", "A2", "/klæsp/", "Fasten the delicate gold clasp of the pearl necklace.", "Cierra el delicado broche de oro del collar de perlas.", "📿", "verbs_action"),
+    ("unclasp", "soltar el broche", "B1", "/ʌnˈklæsp/", "Unclasp the silver watchband before stepping into the shower.", "Suelta el broche del reloj de plata antes de entrar a bañar.", "⌚", "verbs_action"),
+    ("latch", "asegurar el pestillo o cerrojo", "A2", "/lætʃ/", "Latch the garden gate so the puppy does not wander onto streets.", "Asegura el pestillo de la reja para que el perrito no salga.", "🚪", "verbs_action"),
+    ("unlatch", "abrir el cerrojo", "B1", "/ʌnˈlætʃ/", "Unlatch the wooden stable door to lead the horses to pasture.", "Abre el cerrojo del establo para llevar caballos al pasto.", "🚪", "verbs_action"),
+    ("padlock", "cerrar con candado de llave", "A2", "/ˈpæd.lɑːk/", "Padlock your touring bicycle securely to the iron bike rack.", "Asegura con candado tu bicicleta al estacionamiento de metal.", "🔒", "verbs_action"),
+
+    # Mind, Communication & Inquiry Verbs
+    ("enunciate", "pronunciar con dicción perfecta", "B2", "/iˈnʌn.si.eɪt/", "Actors learn to enunciate vowel sounds clearly to reach back rows.", "Actores aprenden a articular vocales para llegar a filas traseras.", "🗣️", "verbs_mind"),
+    ("declaim", "declamar versos con pasión", "B2", "/dɪˈkleɪm/", "Orators declaim dramatic speeches in parliamentary debates.", "Oradores declaman discursos dramáticos en debates del congreso.", "📢", "verbs_mind"),
+    ("profess", "profesar una creencia o vocación", "B2", "/prəˈfes/", "She professed lifelong dedication to environmental justice.", "Profesó una dedicación de por vida a la justicia ambiental.", "🌱", "verbs_mind"),
+    ("herald", "anunciar la llegada de algo grandioso", "B2", "/ˈher.əld/", "Golden autumn foliage heralds the arrival of frosty mornings.", "El follaje dorado del otoño anuncia mañanas con escarcha.", "🍂", "verbs_mind"),
+    ("proclaim", "proclamar solemnemente", "B1", "/prəˈkleɪm/", "The mayor proclaimed October as community tree-planting month.", "El alcalde proclamó octubre como mes de reforestación comunitaria.", "📜", "verbs_mind"),
+    ("disseminate", "difundir información ampliamente", "B2", "/dɪˈsem.ə.neɪt/", "Public health bureaus disseminate hygiene advice to schools.", "Oficinas de salud difunden consejos de higiene a escuelas.", "📢", "verbs_mind"),
+    ("divulge", "divulgar secretos confidenciales", "B2", "/daɪˈvʌldʒ/", "The detective refused to divulge the identity of the informant.", "El detective se negó a divulgar la identidad del informante.", "🤫", "verbs_mind"),
+    ("unveil", "develar un monumento o invento", "B1", "/ʌnˈveɪl/", "Engineers will unveil the prototype electric aircraft tomorrow.", "Ingenieros develarán el prototipo de avión eléctrico mañana.", "✈️", "verbs_mind"),
+    ("unearth", "desenterrar fósiles o secretos", "B1", "/ʌnˈɝːθ/", "Paleontologists unearthed a complete juvenile triceratops skeleton.", "Paleontólogos desenterraron el esqueleto de un triceratops.", "🦴", "verbs_mind"),
+    ("expound", "exponer doctrinas o teorías", "B2", "/ɪkˈspaʊnd/", "The philosopher expounded on ancient Stoic ethics for hours.", "El filósofo expuso sobre ética estoica durante horas.", "🏛️", "verbs_mind"),
+    ("explicate", "explicar detalladamente textos", "C1", "/ˈek.splə.keɪt/", "Scholars explicate complex allegorical metaphors in Dante's poems.", "Académicos explican metáforas alegóricas de Dante.", "📖", "verbs_mind"),
+    ("decipher", "descifrar códigos o escrituras", "B1", "/dɪˈsaɪ.fɚ/", "Linguists labored for years to decipher Mayan glyph inscriptions.", "Lingüistas trabajaron años para descifrar glifos mayas.", "🔍", "verbs_mind"),
+    ("demystify", "desmitificar temas complejos", "B2", "/ˌdiːˈmɪs.tə.faɪ/", "Good science podcasts demystify quantum computing for laypeople.", "Buenos podcasts desmitifican la computación cuántica a todos.", "💡", "verbs_mind"),
+    ("fathom", "desentrañar o comprender a fondo", "B2", "/ˈfæð.əm/", "It is difficult to fathom the vast scale of interstellar space.", "Cuesta trabajo dimensionar la vasta escala del espacio.", "🌌", "verbs_mind"),
+    ("internalize", "interiorizar valores o conocimientos", "B2", "/ɪnˈtɝː.nəl.aɪz/", "Reading daily helps learners internalize English sentence structures.", "Leer a diario ayuda a interiorizar estructuras en inglés.", "🧠", "verbs_mind"),
+
+    # Sensory & Physical Adjectives
+    ("crystalline", "cristalino y transparente como cuarzo", "B2", "/ˈkrɪs.tə.lɪn/", "Sip pure crystalline spring water flowing from alpine granite.", "Toma agua de manantial cristalina que brota del granito alpino.", "💎", "adjectives_sensory"),
+    ("pellucid", "diáfano / límpido y transparente", "C1", "/pəˈluː.sɪd/", "The diver looked down into pellucid Caribbean reef waters.", "El buzo miró hacia abajo en las diáfanas aguas caribeñas.", "🌊", "adjectives_sensory"),
+    ("diaphanous", "vaporoso y traslúcido", "C1", "/daɪˈæf.ən.əs/", "Diaphanous white silk curtains billowed in the summer sea breeze.", "Cortinas vaporosas de seda blanca se mecieron con la brisa.", "🪟", "adjectives_sensory"),
+    ("gossamer", "fino y sutil como tela de araña", "B2", "/ˈɡɑː.sə.mɚ/", "Dewdrops glistened on gossamer spider webs spun across roses.", "Gotas de rocío brillaban en telas de araña sutiles entre rosas.", "🕸️", "adjectives_sensory"),
+    ("opaque", "opaco / que no deja pasar luz", "B1", "/oʊˈpeɪk/", "The frosted glass bathroom window is completely opaque.", "La ventana de vidrio esmerilado del baño es opaca.", "🪟", "adjectives_sensory"),
+    ("translucent", "translúcido / que deja pasar luz suave", "B1", "/trænˈsluː.sənt/", "Alabaster lamp bowls emit a soft translucent amber glow.", "Lámparas de alabastro emiten una suave luz translúcida.", "💡", "adjectives_sensory"),
+    ("vapory", "vaporoso / con neblina suave", "B1", "/ˈveɪ.pɚ.i/", "Early morning vapory mist cloaked the peaceful mountain pine lake.", "La neblina matutina vaporosa cubrió el lago del bosque.", "🌫️", "adjectives_sensory"),
+    ("torrid", "tórrido / calor sofocante", "B2", "/ˈtɔːr.ɪd/", "The explorers crossed the torrid equatorial plains on foot.", "Los exploradores cruzaron las tórridas llanuras a pie.", "☀️", "adjectives_sensory"),
+    ("boreal", "boreal / de los bosques del norte", "B2", "/ˈbɔːr.i.əl/", "The vast boreal forest rings the northern subarctic continents.", "El vasto bosque boreal rodea continentes subárticos del norte.", "🌲", "adjectives_sensory"),
+    ("riparian", "ribereño / de la ribera del río", "C1", "/raɪˈper.i.ən/", "Willow trees form dense riparian buffers that protect water.", "Árboles de sauce forman barreras ribereñas que protegen el agua.", "🌿", "adjectives_sensory"),
+    ("pelagic", "pelágico / de altamar profunda", "C1", "/pəˈlædʒ.ɪk/", "Pelagic sharks patrol open oceans thousands of miles from shore.", "Tiburones pelágicos patrullan el mar abierto lejos de la costa.", "🦈", "adjectives_sensory"),
+    ("benthic", "bentónico / del fondo marino", "C1", "/ˈben.θɪk/", "Crabs and sea urchins thrive in cold benthic ocean floor zones.", "Cangrejos y erizos proliferan en zonas bentónicas del lecho marino.", "🦀", "adjectives_sensory"),
+    ("brackish", "salobre / mezcla de río y mar", "B2", "/ˈbræk.ɪʃ/", "Mangroves thrive in the brackish waters of coastal tidal bays.", "Manglares crecen en aguas salobres de bahías de marea.", "🌱", "adjectives_sensory"),
+    ("corrosive", "corrosivo para metales", "B2", "/kəˈroʊ.sɪv/", "Salty ocean sea spray is highly corrosive to exposed iron.", "La brisa marina salada es muy corrosiva con el hierro expuesto.", "⚙️", "adjectives_sensory"),
+    ("volatile", "volátil / que se evapora rápido o inestable", "B2", "/ˈvɑː.lə.t̬əl/", "Essential oils are aromatic volatile compounds extracted from leaves.", "Aceites esenciales son compuestos volátiles de hojas aromáticas.", "🧴", "adjectives_sensory")
+]
