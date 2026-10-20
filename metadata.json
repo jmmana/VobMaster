@@ -1,0 +1,6 @@
+{
+  "name": "VocabMaster - 2000+ Palabras en Inglés",
+  "description": "Aprende más de 2000 palabras en inglés escuchando pronunciaciones de audio y reconociendo imágenes interactivas con retos, niveles y estadísticas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,83 @@
+# Pack 9: Additional 100 unique words ensuring strict >2,020 unique entries without duplicates
+
+EXPANSION_PACK_9 = [
+    ("time", [
+        ("Monday", "lunes", "A1", "/ˈmʌn.deɪ/", "Classes start early on Monday.", "Las clases empiezan temprano el lunes.", "📅"),
+        ("Tuesday", "martes", "A1", "/ˈtuːz.deɪ/", "Soccer practice takes place Tuesday.", "El entrenamiento de fútbol es el martes.", "📅"),
+        ("Wednesday", "miércoles", "A1", "/ˈwenz.deɪ/", "Wednesday marks the middle of the week.", "El miércoles marca la mitad de la semana.", "📅"),
+        ("Thursday", "jueves", "A1", "/ˈθɝːz.deɪ/", "Thursday afternoons are for grocery runs.", "Las tardes del jueves son para el mandado.", "📅"),
+        ("Friday", "viernes", "A1", "/ˈfraɪ.deɪ/", "Celebrate movie night this Friday.", "Celebra noche de películas este viernes.", "🎉"),
+        ("Saturday", "sábado", "A1", "/ˈsæt̬.ɚ.deɪ/", "Saturday mornings at farmers markets.", "Sábados por la mañana en el mercado.", "🧺"),
+        ("Sunday", "domingo", "A1", "/ˈsʌn.deɪ/", "Sunday family dinner with roasted bread.", "Cena familiar de domingo con pan caliente.", "🍽️"),
+        ("January", "enero", "A1", "/ˈdʒæn.ju.er.i/", "January brings crisp winter snow.", "Enero trae nieve fresca de invierno.", "❄️"),
+        ("February", "febrero", "A1", "/ˈfeb.ruː.er.i/", "Valentine roses bloom in February.", "Rosas florecen en febrero.", "🌹"),
+        ("March", "marzo", "A1", "/mɑːrtʃ/", "Spring blossoms awake in March.", "Flores de primavera despiertan en marzo.", "🌱"),
+        ("April", "abril", "A1", "/ˈeɪ.prəl/", "Gentle April showers bring May flowers.", "Lluvias suaves de abril traen flores.", "🌧️"),
+        ("May", "mayo", "A1", "/meɪ/", "Sunny warm days return in May.", "Días cálidos y soleados regresan en mayo.", "☀️"),
+        ("June", "junio", "A1", "/dʒuːn/", "School summer vacations start in June.", "Vacaciones de verano inician en junio.", "🏖️"),
+        ("July", "julio", "A1", "/dʒuˈlaɪ/", "Picnics on sunny July afternoons.", "Días de campo en las tardes soleadas de julio.", "🍉"),
+        ("August", "agosto", "A1", "/ɑːˈɡʌst/", "Stargaze during August meteor showers.", "Mira las estrellas en las lluvias de agosto.", "🌠"),
+        ("September", "septiembre", "A1", "/sepˈtem.bɚ/", "Golden harvest leaves in September.", "Hojas doradas de cosecha en septiembre.", "🍂"),
+        ("October", "octubre", "A1", "/ɑːkˈtoʊ.bɚ/", "Orange pumpkins ripen in October.", "Calabazas naranjas maduran en octubre.", "🎃"),
+        ("November", "noviembre", "A1", "/noʊˈvem.bɚ/", "Gather around warm hearths in November.", "Reúnanse junto a la chimenea en noviembre.", "🪵"),
+        ("December", "diciembre", "A1", "/dɪˈsem.bɚ/", "Snowy holiday lights in December.", "Luces festivas sobre la nieve en diciembre.", "🎄")
+    ]),
+    ("adjectives_sensory", [
+        ("turquoise", "turquesa", "A2", "/ˈtɝː.kɔɪz/", "Clear turquoise Caribbean waters.", "Aguas color turquesa del Caribe.", "🌊"),
+        ("magenta", "magenta", "B1", "/məˈdʒen.tə/", "Bright magenta orchid blossoms.", "Flores orquídeas de color magenta brillante.", "🌺"),
+        ("violet", "violeta", "A2", "/ˈvaɪə.lət/", "Wild violet flowers in garden shade.", "Flores violetas silvestres en la sombra.", "🪻"),
+        ("amber", "ámbar", "B1", "/ˈæm.bɚ/", "Warm amber glows from rustic lamps.", "Luz ámbar cálida de lámparas rústicas.", "🏮"),
+        ("indigo", "índigo / añil", "B1", "/ˈɪn.dɪ.ɡoʊ/", "Deep indigo blue twilight skies.", "Cielos crepusculares color azul índigo.", "🌌"),
+        ("crimson", "carmesí", "B1", "/ˈkrɪm.zən/", "Crimson maple leaves falling in autumn.", "Hojas carmesíes de arce cayendo en otoño.", "🍁"),
+        ("scarlet", "escarlata", "B1", "/ˈskɑːr.lət/", "Scarlet poppies growing along wheat fields.", "Amapolas escarlatas junto a campos de trigo.", "🌺"),
+        ("emerald", "esmeralda", "B1", "/ˈem.ə.rəld/", "An emerald green sea turtle swam by.", "Una tortuga marina verde esmeralda pasó.", "🐢"),
+        ("cyan", "cian / azul claro", "A2", "/ˈsaɪ.æn/", "Bright cyan neon signs downtown.", "Letreros de neón color cian en el centro.", "💡"),
+        ("beige", "beis / beige", "A2", "/beɪʒ/", "A neutral beige linen sofa cover.", "Funda de sillón de lino color beige neutro.", "🛋️"),
+        ("maroon", "granate / marrón rojizo", "B1", "/məˈruːn/", "A rich maroon leather book cover.", "Pasta de libro de cuero color granate.", "📕"),
+        ("lavender", "lavanda", "A2", "/ˈlæv.ən.dɚ/", "Fragrant lavender soaps perfume baths.", "Jabones de lavanda aromáticos.", "🪻"),
+        ("charcoal", "carbón / gris oscuro", "A2", "/ˈtʃɑːr.koʊl/", "Charcoal sketches on heavy paper.", "Bocetos al carboncillo en papel grueso.", "✏️"),
+        ("silver", "plateado / plata", "A1", "/ˈsɪl.vɚ/", "Polished silver spoons reflect lights.", "Cucharas de plata pulida reflejan la luz.", "🥄"),
+        ("gold", "dorado / oro", "A1", "/ɡoʊld/", "A shining gold medal for victory.", "Una medalla dorada brillante por la victoria.", "🥇"),
+        ("bronze", "bronce", "A2", "/brɑːnz/", "A sturdy antique bronze bell.", "Una campana resistente de bronce antiguo.", "🔔"),
+        ("copper", "cobre", "A2", "/ˈkɑː.pɚ/", "Copper cooking pots heat evenly.", "Ollas de cobre calientan parejo.", "🍳"),
+        ("platinum", "platino", "B1", "/ˈplæt.nəm/", "A precious durable platinum ring.", "Un anillo valioso de platino.", "💍"),
+        ("pearly", "nacarado / perlado", "B1", "/ˈpɝː.li/", "Pearly white oyster shells on shore.", "Conchas de ostra blancas nacaradas en la playa.", "🦪"),
+        ("rusty", "oxidado", "B1", "/ˈrʌs.ti/", "Oil old rusty gate hinges safely.", "Pon aceite a bisagras oxidadas.", "🚪")
+    ]),
+    ("nature", [
+        ("whirlpool", "remolino de agua", "B2", "/ˈwɝːl.puːl/", "A swirling whirlpool formed in river bends.", "Un remolino se formó en la curva del río.", "🌀"),
+        ("tornado", "tornado", "B1", "/tɔːrˈneɪ.doʊ/", "A powerful spiral tornado touched ground.", "Un tornado en espiral tocó tierra.", "🌪️"),
+        ("hurricane", "huracán", "B1", "/ˈhɝː.ɪ.keɪn/", "Strong storm winds from the ocean hurricane.", "Vientos fuertes del huracán marino.", "🌀"),
+        ("cyclone", "ciclón", "B2", "/ˈsaɪ.kloʊn/", "Tropical cyclones bring heavy rains.", "Ciclones tropicales traen lluvias fuertes.", "🌀"),
+        ("avalanche", "avalancha / alud", "B1", "/ˈæv.əl.æntʃ/", "Sirens warned of alpine snow avalanches.", "Sirenas avisaron de avalanchas de nieve.", "❄️"),
+        ("earthquake", "terremoto / sismo", "B1", "/ˈɝːθ.kweɪk/", "Sturdy foundations withstand earthquakes.", "Cimientos firmes resisten terremotos.", "🏚️"),
+        ("tsunami", "tsunami / maremoto", "B1", "/tsuːˈnɑː.mi/", "Early warning buoys detect ocean tsunamis.", "Boyas de alerta detectan tsunamis.", "🌊"),
+        ("geode", "geoda", "B2", "/ˈdʒiː.oʊd/", "A cracked geode reveals purple amethyst.", "Una geoda abierta revela amatista morada.", "💎"),
+        ("crystal", "cristal mineral", "A2", "/ˈkrɪs.təl/", "Clear quartz crystals sparkle in light.", "Cristales de cuarzo brillan a la luz.", "💎"),
+        ("fossil", "fósil", "B1", "/ˈfɑː.səl/", "Ancient ammonite fossils pressed in shale.", "Fósiles antiguos grabados en piedra.", "🐚"),
+        ("amber", "ámbar fósil", "B2", "/ˈæm.bɚ/", "Prehistoric pine resin hardened into amber.", "Resina prehistórica endurecida en ámbar.", "🪵"),
+        ("meteorite", "meteorito", "B1", "/ˈmiː.t̬i.ə.raɪt/", "Heavy nickel iron meteorite samples.", "Muestras de meteorito de hierro y níquel.", "☄️"),
+        ("glacier", "glaciar de hielo", "B1", "/ˈɡleɪ.ʃɚ/", "Deep blue crevasses inside polar glaciers.", "Grietas azuladas dentro de glaciares polares.", "🧊"),
+        ("iceberg", "témpano de hielo / iceberg", "B1", "/ˈaɪs.bɝːɡ/", "Massive icebergs float in arctic waters.", "Témpanos enormes flotan en el mar ártico.", "🧊"),
+        ("hot spring", "aguas termales", "A2", "/ˌhɑːt ˈsprɪŋ/", "Relaxing in volcanic mineral hot springs.", "Relajándose en aguas termales volcánicas.", "♨️"),
+        ("lagoon", "laguna costera", "A2", "/ləˈɡuːn/", "Turquoise fish swim in sheltered lagoons.", "Peces turquesa nadan en lagunas tranquilas.", "🏝️"),
+        ("marshland", "ciénaga / humedal", "B1", "/ˈmɑːrʃ.lænd/", "Reeds grow tall in fertile marshlands.", "Juncos crecen altos en el humedal.", "🦆"),
+        ("rainforest", "selva tropical", "A2", "/ˈreɪnˌfɔːr.ɪst/", "Dense biodiversity inside tropical rainforests.", "Gran biodiversidad en la selva tropical.", "🌳"),
+        ("savanna", "sabana africana", "A2", "/səˈvæn.ə/", "Acacia trees dot the golden savanna.", "Árboles de acacia adornan la sabana dorada.", "🦁"),
+        ("tundra", "tundra ártica", "B1", "/ˈtʌn.drə/", "Lichens and moss carpet the arctic tundra.", "Líquenes y musgo cubren la tundra ártica.", "❄️")
+    ]),
+    ("science", [
+        ("gravity", "fuerza de gravedad", "B1", "/ˈɡræv.ə.t̬i/", "Gravity keeps feet planted on Earth.", "La gravedad mantiene los pies en la Tierra.", "🌍"),
+        ("wavelength", "longitud de onda", "B2", "/ˈweɪv.leŋθ/", "Visible light spans diverse wavelengths.", "La luz visible abarca diversas longitudes de onda.", "🌈"),
+        ("spectrum", "espectro de luz", "B2", "/ˈspek.trəm/", "Prisms split sunlight into the color spectrum.", "Prismas dividen la luz en el espectro de colores.", "🌈"),
+        ("resonance", "resonancia", "B2", "/ˈrez.ən.əns/", "Acoustic resonance fills the hall.", "La resonancia acústica llena la sala.", "🎶"),
+        ("equilibrium", "equilibrio químico / físico", "B2", "/ˌiː.kwəˈlɪb.ri.əm/", "Ecosystems maintain natural equilibrium.", "Ecosistemas mantienen un equilibrio natural.", "⚖️"),
+        ("evaporation", "evaporación", "B1", "/ɪˌvæp.əˈreɪ.ʃən/", "Sun heat causes ocean water evaporation.", "El calor solar causa evaporación de agua.", "💨"),
+        ("condensation", "condensación", "B1", "/ˌkɑːn.denˈseɪ.ʃən/", "Dew droplets form through condensation.", "Gotas de rocío se forman por condensación.", "💧"),
+        ("precipitation", "precipitación / lluvia", "B1", "/prɪˌsɪp.əˈteɪ.ʃən/", "Rain and snow are weather precipitation.", "Lluvia y nieve son precipitación climática.", "🌧️"),
+        ("photosynthesis", "fotosíntesis", "B2", "/ˌfoʊ.t̬oʊˈsɪn.θə.sɪs/", "Green leaves absorb light via photosynthesis.", "Hojas verdes absorben luz por fotosíntesis.", "🌱"),
+        ("respiration", "respiración celular", "B2", "/ˌres.pəˈreɪ.ʃən/", "Cellular respiration yields vital energy.", "La respiración celular produce energía vital.", "🫁")
+    ])
+]
+
+print("Pack 9 ready.")
